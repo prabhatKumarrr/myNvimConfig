@@ -18,10 +18,3 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
-
--- Aider
-keymap.set("n", "<leader>aa", ":Aider<CR>", { desc = "Open Aider" }) -- Space+a+a
-
---CodeCompanion
-keymap.set("n", "<leader>ac", ":CodeCompanionChat<CR>", { desc = "AI Chat" }) -- Space+a+c
-keymap.set("v", "<leader>ae", ":CodeCompanion<CR>", { desc = "AI Edit Selection" }) -- Space+a+e
